@@ -1,0 +1,33 @@
+.header {
+   height: 4rem;
+   width: 100%;
+   padding: 1rem 2rem;
+   background: var(--accent);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 1.2rem;
+   top: 0;
+   font-weight: 300;
+   z-index: 10;
+
+   @media (max-width: 750px) {
+      height: 6rem;
+      flex-direction: column;
+   }
+}
+
+.links {
+   display: flex;
+
+   @media (max-width: 750px) {
+      margin-top: 1rem;
+      font-size: 1rem;
+   }
+
+   & > * {
+      &:not(:last-child) {
+         margin-right: 2rem;
+      }
+   }
+}

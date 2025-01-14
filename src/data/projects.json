@@ -1,0 +1,42 @@
+[
+   {
+      "title": "GenesysRef",
+      "url": "https://genesysref.netlify.app",
+      "role": "Co-Creator / Developer",
+      "dates": "2020 - Present",
+      "technologies": [
+         "Vue 3",
+         "Typescript",
+         "Vite"
+      ],
+      "details": [
+         "A collection of tools and references for Fantasy Flight Game's Genesys RPG. Featuring powerful search and filter utilities, an extensive API for creating custom content, and the convenience of printing important information for direct use of the tabletop, GenesysRef is a must-have companion for your tabletop adventures."
+      ],
+      "images": [
+         "/images/genesysref1.png",
+         "/images/genesysref2.png",
+         "/images/genesysref3.png",
+         "/images/genesysref4.png"
+      ]
+   },
+   {
+      "title": "ChronoDB (Alpha)",
+      "url": "https://chrono-db.net",
+      "role": "Developer",
+      "dates": "2024 - Present",
+      "technologies": [
+         "Vue 3",
+         "Typescript",
+         "Vite",
+         "Kotlin"
+      ],
+      "details": [
+         "Deck browser and builder for the up-coming Chrono Collectible Card Game. Users build decks according to the currently established rules, and share them with others. Currently in Alpha state and awaiting for more details of the game to be released for work to continue."
+      ],
+      "images": [
+         "/images/chrono1.png",
+         "/images/chrono2.png",
+         "/images/chrono3.png"
+      ]
+   }
+]

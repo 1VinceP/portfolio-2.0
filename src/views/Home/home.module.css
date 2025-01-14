@@ -1,0 +1,112 @@
+.home {
+   width: 100%;
+   background: black;
+}
+
+.hero {
+   height: calc(100lvh - 10rem);
+   width: 100%;
+   background: url('/images/alaska.jpg');
+   background-position: 55% center;
+   background-size: cover;
+   background-attachment: fixed;
+   position: relative;
+
+   .greeting {
+      position: absolute;
+      left: 4rem;
+      bottom: 4rem;
+      font-size: 7rem;
+
+      div {
+         &:nth-child(1) {
+            font-size: 5rem;
+         }
+
+         &:nth-child(2) {
+            margin-top: -2rem;
+            margin-bottom: -1rem;
+            font-weight: 400;
+         }
+
+         &:nth-child(3) {
+            font-size: 2rem;
+         }
+      }
+
+      @media (max-width: 750px) {
+         left: 1rem;
+         bottom: 4rem;
+         font-size: 4rem;
+
+         div {
+            &:nth-child(1) {
+               font-size: 2rem;
+            }
+
+            &:nth-child(2) {
+               margin-top: -1rem;
+               margin-bottom: -0.5rem;
+               font-weight: 400;
+            }
+
+            &:nth-child(3) {
+               font-size: 1rem;
+            }
+         }
+      }
+   }
+
+   .img-cite {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      opacity: 0.5;
+      font-style: italic;
+      font-size: 0.75rem;
+   }
+}
+
+.intro {
+   height: 100lvh;
+   padding: 12rem 4rem 2rem 4rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   font-size: 1.25rem;
+
+   @media (max-width: 750px) {
+      padding: 2rem;
+   }
+
+   h1 {
+      display: flex;
+      margin-bottom: 2rem;
+      font-size: 4rem;
+      font-weight: 300;
+      font-style: italic;
+
+      @media (max-width: 750px) {
+         font-size: 2.2rem;
+      }
+   }
+
+   p {
+      width: 60%;
+      margin-top: 2rem;
+
+      @media (max-width: 750px) {
+         width: 100%;
+      }
+   }
+
+   .links {
+      display: flex;
+      margin-top: 4rem;
+
+      @media (max-width: 750px) {
+         flex-direction: column;
+      }
+   }
+}

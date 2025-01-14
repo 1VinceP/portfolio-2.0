@@ -1,0 +1,15 @@
+.projects {
+   width: 100%;
+   background: linear-gradient(to bottom, var(--accent), black 50%);
+   background-color: black;
+   padding: 2rem;
+   padding-bottom: 12rem;
+
+   @media (max-width: 750px) {
+      padding-bottom: 4rem;
+   }
+
+   .projects-header {
+      margin-bottom: 1rem;
+   }
+}

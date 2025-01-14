@@ -1,0 +1,86 @@
+.project {
+   width: 100%;
+   display: flex;
+   margin-top: 2rem;
+   &:not(:last-child) {
+      margin-bottom: 5rem;
+   }
+   &.reverse {
+      flex-direction: row-reverse;
+      color: black;
+
+      .info {
+         margin-right: 0;
+         margin-left: 2rem;
+      }
+   }
+
+   @media (max-width: 750px) {
+      flex-direction: column;
+      &.reverse {
+         flex-direction: column;
+
+         .info {
+            margin: 0;
+         }
+      }
+   }
+
+   .info {
+      width: 100%;
+      margin-right: 2rem;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      &:hover {
+         .url {
+            text-decoration: underline;
+         }
+      }
+
+      @media (max-width: 750px) {
+         display: flex;
+         flex-direction: column;
+         margin: 0;
+         font-size: 1rem;
+      }
+
+      .row {
+         display: flex;
+         justify-content: space-between;
+         &.head {
+            font-size: 1.5rem;
+         }
+
+         @media (max-width: 750px) {
+            flex-direction: column;
+            &.head { font-size: 1rem; }
+
+            .title {
+               font-size: 1.5rem;
+               display: flex;
+               flex-direction: column;
+            }
+
+            .url {
+               font-size: 1rem;
+            }
+         }
+      }
+
+      .details {
+         p {
+            margin-top: 1rem;
+         }
+      }
+   }
+
+   .images {
+      max-width: 400px;
+      background: #323231;
+
+      @media (max-width: 750px) {
+         margin-top: 1rem;
+      }
+   }
+}

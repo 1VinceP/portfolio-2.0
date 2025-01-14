@@ -1,0 +1,86 @@
+[
+   {
+      "title": "Front End",
+      "skills": [
+         {
+            "title": "React",
+            "icon": "/icons/react.svg",
+            "skills": [
+               "Redux",
+               "React Native",
+               "NextJS"
+            ]
+         },
+         {
+            "title": "Vue 3",
+            "icon": "/icons/vue.svg",
+            "skills": [
+               "Vue 2",
+               "Pinia",
+               "NuxtJS"
+            ]
+         },
+         {
+            "title": "Web Core",
+            "icon": "/icons/typescript.svg",
+            "skills": [
+               "JavaScript",
+               "TypeScript",
+               "HTML",
+               "CSS"
+            ]
+         },
+         {
+            "title": "Testing",
+            "icon": "/icons/vitest.svg",
+            "skills": [
+               "Vitest",
+               "Jest",
+               "Cypress",
+               "Playwrite"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Back End",
+      "skills": [
+         {
+            "title": "NodeJS",
+            "icon": "/icons/node.svg",
+            "skills": [
+               "ExpressJS",
+               "REST API"
+            ]
+         },
+         {
+            "title": "Databases",
+            "icon": "/icons/postgresql.svg",
+            "skills": [
+               "PostgreSQL",
+               "Firestore",
+               "MongoDB"
+            ]
+         },
+         {
+            "title": "Services",
+            "icon": "/icons/azure.svg",
+            "skills": [
+               "AWS",
+               "Azure",
+               "GCloud"
+            ]
+         },
+         {
+            "title": "Tooling, Et al.",
+            "icon": "/icons/github.svg",
+            "skills": [
+               "Agile",
+               "Git",
+               "npm",
+               "Project management"
+            ]
+         }
+      ]
+   }
+]

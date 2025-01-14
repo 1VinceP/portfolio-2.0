@@ -1,0 +1,63 @@
+[
+   {
+      "id": 7653,
+      "company": "Domino's",
+      "role": "Senior Developer",
+      "dates": "2023 - 2024",
+      "image": "/icons/dominos.svg",
+      "background": "#006491",
+      "url": "https://dominos.com",
+      "details": [
+         "A global fast-food chain known for its wide variety of pizzas, sides, and desserts, specializing in quick delivery and carryout services."
+      ]
+   },
+   {
+      "id": 2654,
+      "company": "SilentArcticDev",
+      "role": "Full-Stack Developer",
+      "dates": "2020 - Present",
+      "image": "",
+      "background": "#7b99a1",
+      "url": "https://github.com/SilentArctic",
+      "details": [
+         "A small team of web developers building hobby websites for fun! We integrate with the community to directly address feedback and implement requested features."
+      ]
+   },
+   {
+      "id": 3165,
+      "company": "NuCamp",
+      "role": "JavaScript Instructor",
+      "dates": "2020 - 2021",
+      "image": "/icons/nucamp.svg",
+      "background": "#1f1d2b",
+      "url": "https://www.nucamp.co/",
+      "details": [
+         "A coding boot camp offering part-time, flexible courses in web development, mobile development, and more.",
+         "I remotely taught multiple classes of students the fundamentals and advanced topics of modern web development including JavaScript, React, and NodeJS."
+      ]
+   },
+   {
+      "id": 4685,
+      "company": "Launch",
+      "role": "Senior Developer",
+      "dates": "2018 - 2023",
+      "image": "/icons/launch.svg",
+      "background": "#1a1b1e",
+      "url": "https://launch.nttdata.com/",
+      "details": [
+         "A digital production service offering end-to-end solutions, from ideation to deployment, focusing on rapid product development and continuous innovation."
+      ]
+   },
+   {
+      "id": 6897,
+      "company": "DevMountain",
+      "role": "JavaScript Instructor",
+      "dates": "2018",
+      "image": "/images/devmountain.png",
+      "background": "#fff",
+      "url": "https://devmountain.com/",
+      "details": [
+         "An immersive coding boot camp offering full-time and part-time courses in web development, software engineering, and UX/UI design. Known for its hands-on approach and project-based learning, it helps students gain practical skills to launch tech careers."
+      ]
+   }
+]

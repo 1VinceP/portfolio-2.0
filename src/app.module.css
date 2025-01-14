@@ -1,0 +1,7 @@
+.app {
+   min-height: 100lvh;
+   width: 100%;
+   color: white;
+   font-family: "Open Sans", serif;
+   font-weight: 300;
+}
